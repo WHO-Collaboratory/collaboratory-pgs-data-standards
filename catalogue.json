@@ -1,0 +1,30 @@
+[
+    {
+        "name": "AbcD12",
+        "description": "The one everyone uses, was created in 1992 by an anonymous student, hasn't been maintained since 1993.",
+        "pathogens": ["influenza virus"],
+        "release_date": "1992-02-04",
+        "links": []
+    },
+    {
+        "name": "eFGh34",
+        "description": "A very comprehensive and versatile standard, used by the e-Data-Base. Almost the same as iJkL56.",
+        "pathogens": ["dengue virus", "Zika virus", "monkey pox virus"],
+        "release_date": "2010-03-22",
+        "links": ["https://example.com/c21"]
+    },
+    {
+        "name": "iJkL56",
+        "description": "A very comprehensive and versatile standard, used by the i-Data-Base. Almost the same as eFGh34.",
+        "pathogens": ["dengue virus", "SARS-CoV-2"],
+        "release_date": "2010-03-23",
+        "links": ["https://example.com/c31", "https://example.com/c32", "https://example.com/c33"]
+    },
+    {
+        "name": "MNOp78",
+        "description": "The best one, but no one knows it.",
+        "pathogens": ["SARS-CoV-2", "influenza virus", "Mycobacterium tuberculosis"],
+        "release_date": "2024-12-30",
+        "links": ["https://example.com/c41", "https://example.com/c42"]
+    }      
+]
