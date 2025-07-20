@@ -26,5 +26,12 @@
         "pathogens": ["SARS-CoV-2", "influenza virus", "Mycobacterium tuberculosis"],
         "release_date": "2024-12-30",
         "links": ["https://example.com/c41", "https://example.com/c42"]
-    }      
+    },
+    {
+        "name": "qrSt910",
+        "description": "A new one under development. An effort of the global community within the QRST Network.",
+        "pathogens": ["SARS-CoV-2", "influenza virus", "Mycobacterium tuberculosis", "dengue virus", "Zika virus", "monkey pox virus"],
+        "release_date": "2025-07-18",
+        "links": ["https://example.com/c51", "https://example.com/c52", "https://example.com/c53", "https://example.com/c54"]
+    }        
 ]
