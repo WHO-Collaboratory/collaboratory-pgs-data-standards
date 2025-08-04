@@ -48,8 +48,10 @@
         "values": [
             "CSV",
             "Excel",
-            "JSON", 
+            "JSON",
+            "LinkML", 
             "XML",
+            "YAML",
             "other",
             "undefined, missing, or unknown"
         ],
