@@ -8,7 +8,7 @@ This is the repository for the IPSN Pathogen-Genomics-Surveillance Data-Standard
 
 The catalogue proper is [catalogue.json](./catalogue.json).
 
-The catalogue fields names, types and permitted values are defined in [catalogue_model.json](./catalogue_model.json). 
+The catalogue field names, types, permitted values, and definitions are defined in [catalogue_model.json](./catalogue_model.json). 
 
 The catalogue is displayed here: https://who-collaboratory.github.io/collaboratory-pgs-data-standards-page/
 
