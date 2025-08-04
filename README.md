@@ -8,7 +8,7 @@ This is the repository for the IPSN Pathogen-Genomics-Surveillance Data-Standard
 
 The catalogue is [catalogue.json](./catalogue.json).
 
-The catalogue field names, types, permitted values, and definitions are defined in [catalogue_model.json](./catalogue_model.json). 
+The catalogue field names, types, permitted values, and definitions are defined in [catalogue_model.json](./catalogue_model.json). In all string fields, single quotation marks `'` are preferred to double quotation marks `"`. If you want to use the latter, you need to use the escape character `\` before it. For example, `"A 'great' standard"` and `"A \"great\" standard"`  are valid string values.
 
 An empty template for catalogue entries is provided: [catalogue_entry_template.json](./catalogue_entry_template.json)
 
