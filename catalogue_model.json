@@ -60,8 +60,9 @@
         "type": "string",
         "array": true,
         "values": [
-            "templates",
+            "examples",
             "protocols",
+            "templates",
             "other",
             "none",
             "undefined, missing, or unknown"
