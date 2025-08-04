@@ -30,7 +30,7 @@
             "any bacterium",
             "pathogen agnostic",
             "other",
-            "missing, unknown, or undefined"
+            "undefined, missing, or unknown"
         ],
         "definition": "Pathogens or use cases covered by the data standard"
     },
@@ -51,7 +51,7 @@
             "JSON", 
             "XML",
             "other",
-            "missing, unknown, or undefined"
+            "undefined, missing, or unknown"
         ],
         "definition": "Formats in which the data standard is available. This assumes a structured file. If the files provided are unstructured, select 'other', irrespective of the file format."
     },
@@ -64,7 +64,7 @@
             "protocols",
             "other",
             "none",
-            "missing, unknown, or undefined"
+            "undefined, missing, or unknown"
         ],
         "definition": "Material provided to make use of the data standard"
     },
