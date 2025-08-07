@@ -1,0 +1,95 @@
+[
+    {
+        "name": "id",
+        "type": "string",
+        "array": false,
+        "values": null,
+        "definition": "Unique identifier within the IPSN Pathogen-Genomics-Surveillance Data-Standards Catalogue"
+    },
+    {
+        "name": "name",
+        "type": "string",
+        "array": false,
+        "values": null,
+        "definition": "Name of the data standard within the IPSN Pathogen-Genomics-Surveillance Data-Standards Catalogue"
+    },
+    {
+        "name": "URLs",
+        "type": "string",
+        "array": true,
+        "values": null,
+        "definition": "Main URLs to access information and material related to the data standard. This list should be parsimonious rather than exhaustive."
+    },
+    {
+        "name": "scopes",
+        "type": "string",
+        "array": true,
+        "values": [
+            "SARS-CoV-2",
+            "any virus",
+            "any bacterium",
+            "pathogen agnostic",
+            "other",
+            "undefined, missing, or unknown"
+        ],
+        "definition": "Pathogens or use cases covered by the data standard"
+    },
+    {
+        "name": "targets",
+        "type": "string",
+        "array": true,
+        "values": null,
+        "definition": "Genome regions covered by the data standard"
+    },
+    {
+        "name": "formats",
+        "type": "string",
+        "array": true,
+        "values": [
+            "CSV",
+            "Excel",
+            "JSON",
+            "LinkML", 
+            "XML",
+            "YAML",
+            "other",
+            "undefined, missing, or unknown"
+        ],
+        "definition": "Formats in which the data standard is available. This assumes a structured file. If the files provided are unstructured, select 'other', irrespective of the file format."
+    },
+    {
+        "name": "supporting_materials",
+        "type": "string",
+        "array": true,
+        "values": [
+            "examples",
+            "protocols",
+            "templates",
+            "other",
+            "none",
+            "undefined, missing, or unknown"
+        ],
+        "definition": "Material provided to make use of the data standard"
+    },
+    {
+        "name": "developers",
+        "type": "string",
+        "array": true,
+        "values": null,
+        "definition": "Individuals or organizations developing the data standard"
+    },
+    {
+        "name": "contacts",
+        "type": "string",
+        "array": true,
+        "values": null,
+        "definition": "Ways to contact the developers, e.g. emails, online forms, postal addresses."
+    },
+    {
+        "name": "comment",
+        "type": "string",
+        "array": false,
+        "values": null,
+        "definition": "Comments from the maintainers of the IPSN Pathogen-Genomics-Surveillance Data-Standards Catalogue on the data standard"
+    }                            
+]

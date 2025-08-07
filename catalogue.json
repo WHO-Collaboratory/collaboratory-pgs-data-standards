@@ -1,30 +1,101 @@
 [
     {
-        "name": "AbcD12",
-        "description": "The one everyone uses, was created in 1992 by an anonymous student, hasn't been maintained since 1993.",
-        "pathogens": ["influenza virus"],
-        "release_date": "1992-02-04",
-        "links": []
+        "id": "1",
+        "name": "PHA4GE SARS-CoV-2 contextual data standard",
+        "URLs": [
+            "https://github.com/pha4ge/SARS-CoV-2-Contextual-Data-Specification"
+        ],
+        "scopes": [
+            "SARS-CoV-2"
+        ],
+        "targets": [],
+        "formats": [
+            "JSON",
+            "Excel"
+        ],
+        "supporting_materials": [
+            "templates",
+            "protocols"
+        ],
+        "developers": [
+            "PHA4GE Data Structures Working Group"
+        ],
+        "contacts": [
+            "datastructures@pha4ge.org"
+        ],
+        "comment": "The standard is described in 'Future-proofing and maximizing the utility of metadata: The PHA4GE SARS-CoV-2 contextual data specification package', 2022, GigaScience, https://doi.org/10.1093/gigascience/giac003"
     },
     {
-        "name": "eFGh34",
-        "description": "A very comprehensive and versatile standard, used by the e-Data-Base. Almost the same as iJkL56.",
-        "pathogens": ["dengue virus", "Zika virus", "monkey pox virus"],
-        "release_date": "2010-03-22",
-        "links": ["https://example.com/c21"]
+        "id": "2",
+        "name": "GSCID/BRC Project and Sample Application Standard",
+        "URLs": [
+            "https://github.com/GSCID-BRC-Metadata-Standard-WG/GSCID-BRC-Project-and-Sample-Application-Standard"
+        ],
+        "scopes": [
+            "pathogen agnostic"
+        ],
+        "targets": [],
+        "formats": [
+            "Excel"
+        ],
+        "supporting_materials": [
+            "templates"
+        ],
+        "developers": [
+            "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "Genomic Sequencing Centers (GSCIDs)",
+            "Bioinformatics Resource Centers (BRCs)"
+        ],
+        "contacts": [],
+        "comment": "The standard is described in 'Standardized Metadata for Human Pathogen/Vector Genomic Sequences', 2014, PLOS One, https://doi.org/10.1371/journal.pone.0099979"
     },
     {
-        "name": "iJkL56",
-        "description": "A very comprehensive and versatile standard, used by the i-Data-Base. Almost the same as eFGh34.",
-        "pathogens": ["dengue virus", "SARS-CoV-2"],
-        "release_date": "2010-03-23",
-        "links": ["https://example.com/c31", "https://example.com/c32", "https://example.com/c33"]
+        "id": "3",
+        "name": "MIxS - Minimum Information about any (x) Sequence",
+        "URLs": [
+            "https://w3id.org/mixs"
+        ],
+        "scopes": [
+            "pathogen agnostic"
+        ],
+        "targets": [],
+        "formats": [
+            "LinkML"
+        ],
+        "supporting_materials": [
+            "examples",
+            "templates"
+        ],
+        "developers": [
+            "Genomic Standards Consortium (GSC)"
+        ],
+        "contacts": [
+            "https://www.gensc.org/pages/contact.html"
+        ],
+        "comment": ""
     },
     {
-        "name": "MNOp78",
-        "description": "The best one, but no one knows it.",
-        "pathogens": ["SARS-CoV-2", "influenza virus", "Mycobacterium tuberculosis"],
-        "release_date": "2024-12-30",
-        "links": ["https://example.com/c41", "https://example.com/c42"]
-    }      
+        "id": "4",
+        "name": "MIGS: virus, host-associated; version 6.0 Package",
+        "URLs": [
+            "https://www.ncbi.nlm.nih.gov/biosample/docs/packages/MIGS.vi.host-associated.6.0/"
+        ],
+        "scopes": [
+            "any virus"
+        ],
+        "targets": [],
+        "formats": [
+            "Excel",
+            "XML",
+            "other"
+        ],
+        "supporting_materials": [
+            "examples"
+        ],
+        "developers": [
+            "National Center for Biotechnology Information (NCBI)"
+        ],
+        "contacts": [],
+        "comment": "For potentially more recent versions, see the full list of NCBI BioSample packages here: https://www.ncbi.nlm.nih.gov/biosample/docs/packages/"
+    }
 ]
